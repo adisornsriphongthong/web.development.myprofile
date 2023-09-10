@@ -180,7 +180,7 @@ ul li{
     position: relative;
     display: flex;
     justify-content: center;
-    background-image: url(Artistic\ Rain\ Gif\ -\ Gif\ Abyss.gif);
+    background-image: url(Images\Artistic\ Rain\ Gif\ -\ Gif\ Abyss.gif);
     background-position: center;
     background-size: cover;
     border-radius: 15px;
@@ -192,7 +192,7 @@ ul li{
     position: relative;
     display: flex;
     justify-content: center;
-    background-image: url(blue\ hour\,\ my_art_bytes\(me\)\,\ pixel\ art\,\ 2021.gif);
+    background-image: url(Images\blue\ hour\,\ my_art_bytes\(me\)\,\ pixel\ art\,\ 2021.gif);
     background-position: center;
     background-size: cover;
     border-radius: 15px;
@@ -203,7 +203,7 @@ ul li{
 
 .backgrond-last-page{
     width: 100%;
-    background-image: linear-gradient(rgb(0,0,0,0.8), rgb(0,0,0,0.8)), url(background.png);
+    background-image: linear-gradient(rgb(0,0,0,0.8), rgb(0,0,0,0.8)), url(Images\background.png);
     background-size: cover;
     background-position: center;
 }
