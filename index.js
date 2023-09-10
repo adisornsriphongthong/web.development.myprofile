@@ -19,11 +19,11 @@ function myFunctionClickSong(){
     if(on_off_song){
         song_easy.play();
         on_off_song = false;
-        image_play_pause.src = "pause.png";
+        image_play_pause.src = "Images/pause.png";
     }else{
         song_easy.pause();
         on_off_song = true
-        image_play_pause.src = "play-button.png";
+        image_play_pause.src = "Images/play-button.png";
     }
 }
 
