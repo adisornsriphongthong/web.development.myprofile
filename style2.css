@@ -180,7 +180,7 @@ ul li{
     position: relative;
     display: flex;
     justify-content: center;
-    background-image: url(Images\gif2.gif);
+    background-image: url(Images/background-gif1.gif);
     background-position: center;
     background-size: cover;
     border-radius: 15px;
@@ -192,7 +192,7 @@ ul li{
     position: relative;
     display: flex;
     justify-content: center;
-    background-image: url(Images\gif1.gif);
+    background-image: url(Images/background-gif2.gif);
     background-position: center;
     background-size: cover;
     border-radius: 15px;
