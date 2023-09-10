@@ -48,19 +48,19 @@ html{
 
 @media (max-width: 820px) {
     .bar-contact{
-        margin-top: -1090px;
+        margin-top: -1040px;
     }
 }
 
 @media screen and (max-width: 490px) {
     .bar-contact{
-        margin-top: -1550px;
+        margin-top: -1570px;
     }
 }
 
 @media screen and (max-width: 390px) {
     .bar-contact{
-        margin-top: -1450px;
+        margin-top: -1470px;
     }
 }
 
