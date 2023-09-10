@@ -40,12 +40,12 @@ button_burger.addEventListener('click', myFucntionClickBurger);
 let on_off_bar = true;
 function myFucntionClickBurger(){
     if(on_off_bar){
-        document.getElementById('image-burger').src = "cancel.png"
+        document.getElementById('image-burger').src = "Images/cancel.png"
         document.getElementById('bar-contact-on-off').style.visibility = "visible";
         
         on_off_bar = false;
     }else{
-        document.getElementById('image-burger').src = "burger-menu.png"
+        document.getElementById('image-burger').src = "Images/burger-menu.png"
         document.getElementById('bar-contact-on-off').style.visibility = "hidden";
 
         on_off_bar = true;
