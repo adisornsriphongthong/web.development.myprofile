@@ -48,7 +48,7 @@ html{
 
 @media (max-width: 820px) {
     .bar-contact{
-        margin-top: -1020px;
+        margin-top: -1040px;
     }
 }
 
@@ -60,7 +60,7 @@ html{
 
 @media screen and (max-width: 390px) {
     .bar-contact{
-        margin-top: -1550px;
+        margin-top: -1650px;
     }
 }
 
