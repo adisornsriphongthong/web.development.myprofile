@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+
+    <!-- link font for m google font-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="icon.png" type="image/x-icon">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MYPROFIOLE</title>
+    <h3>adisorn sriphongthong</h3>
+</head>
+<body style="background-color: black;">
+    <img style="display: none" src="Hitori Goto.jpg">
+    <div class="background">
+        <div class="menu-bar">
+            <h3 style="color: #fff;">MY PROFILE</h3>
+            <div style="display: flex; align-items: center;">
+                <style>
+                    .menu-bar ul li{
+                        padding: 10px;
+                    }
+                    .menu-bar ul li a{
+                        color: #fff;
+                        text-decoration: none;
+                    }
+
+                    .menu-bar ul li a:hover{
+                        color: #888888;
+                    }
+
+                </style>
+                <ul style="display: flex;">
+                    <li class="bar-media"><a href="">home</a></li>
+                    <li class="bar-media"><a href="https://adisornsriphongthong.github.io/WS-1.1-My-Performance/">performance</a></li>
+                    <li class="bar-media"><a href="#about-me">about me</a></li>
+                    <li>
+                        <div class="hover-burger">
+
+                            <button id="button-burger-click" style="background-color: transparent; border: none;">
+                                <img id="image-burger" class="size-burger" src="burger-menu.png" alt="">
+                            </button>
+
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- section 1 -->
+        <div id="about-me" class="move-name-center">
+            <div id="move-text-ccenter" class="move-text-ccenter">
+                <h1 style="color: #fff;">ADISORN SRIPHONGTHONG</h1>
+                <p class="text-never">the more things change the more they stay the same</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- page-2 -->
+    <div id="background-2" class="background-2">
+        <div id="background-profile" class="background-profile">
+            <div class="background-corner"">
+                <div class="corner">
+                    <h1></h1>
+                </div>
+            </div>
+            <div>
+                <!-- change display flex to block -->
+                <div class="Display-of-page1-2">
+                    <!-- you should change 50% to 100% both 2 tag-->
+                    <div class="page-1">
+                        <div style="display: flex; justify-content: center; position: relative; top: 10%;">
+                            <img id="move-profile" style="width: 150px; height: 150px; border-radius: 50%;" src="profile1.png" alt="">
+                        </div>
+                        
+                        <div style="display: flex; position: relative; top: 10%; justify-content: center;">
+                            <div id="move-interface-1">
+                                <div id="move-profile" style="display: flex; justify-content: center; position: relative; top: 5%;">
+                                    <h3>PROFILE</h3>
+                                </div> 
+
+                                <div style="display: flex; position: relative; top: 10%;">
+                                    <div>
+                                        <div style="display: flex;">
+                                            <div style="width: 150px; height: 100px;">
+                                                <p style="padding: 5px;">Name:</p>
+                                                <p style="padding: 5px;">Nick-name:</p>
+                                                <p style="padding: 5px;">Date of birth:</p>
+                                                <p style="padding: 5px;">Age:</p>
+                                                <p style="padding: 5px;">Education:</p>
+                                                <br>
+                                                <p style="padding: 5px;">Personality:</p>
+                                            </div>
+                                            <div style="width: 240px; height: 100px; background-color: transparent;">
+                                                <p style="padding: 5px;">Adisorn Sriphongthong</p>
+                                                <p style="padding: 5px;">get</p>
+                                                <p style="padding: 5px;">18 August 2004</p>
+                                                <p style="padding: 5px;">19</p>
+                                                <p style="padding: 5px;">Panyapiwat Institute of Management</p>
+                                                <p style="padding: 5px;"> INFJ</p>
+                                            </div>
+                                        </div>
+
+                                        <br><br><br><br><br><br><br>
+
+    
+                                        <div style="display: flex; justify-content: center; position: relative;">
+                                            <h3>CONTACT</h3>
+                                        </div>
+                
+                                        <br>
+                                        <div>
+                                            <hr style="width: 90%">       
+                                        </div>
+                                        <br>
+
+                                        <style>
+.Instagram-hover{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    width: 0;
+    background-color: rgb(255, 255, 255);
+}
+.Instagram-hover::after{
+    content: '';
+    border-radius: 15px;
+    width: 0px;
+    height: 2px;
+    margin-top: 25px;
+    left: 18%;
+    background-image: linear-gradient(to right, rgb(204, 0, 255) , rgb(255, 200, 0));
+    position: absolute;
+}
+.Instagram-hover:hover::after{
+    transition: 0.5s;
+    width: 115px;
+}
+.Facebook-hover::after{
+    content: '';
+    border-radius: 15px;
+    width: 0px;
+    height: 2px;
+    margin-top: 25px;
+    left: 18%;
+    background-image: linear-gradient(to right, rgb(0, 110, 255) , rgb(47, 47, 47));
+    position: absolute;
+}
+.Facebook-hover:hover::after{
+    transition: 0.5s;
+    width: 185px;
+}
+.Github-hover::after{
+    content: '';
+    border-radius: 15px;
+    width: 0px;
+    height: 2px;
+    margin-top: 25px;
+    left: 18%;
+    background-image: linear-gradient(to right, rgb(27, 27, 27) , rgb(122, 122, 122));
+    position: absolute;
+}
+.Github-hover:hover::after{
+    transition: 0.5s;
+    width: 185px;
+}
+                                        </style>
+                                        
+                                        <div style="display: flex; align-items: center; padding: 15px;">
+                                            <img style="width: 40px; height: 40px;" src="instagram.png" alt="">
+                                            <p style="align-items: center; padding: 15px;"><a class="Instagram-hover" href="https://www.instagram.com/milo_aroydee/?next=%2F">milo_aroydee</a></p>
+                                        </div>
+                                        <div style="display: flex; align-items: center; padding: 15px;">
+                                            <img style="width: 40px; height: 40px;" src="facebook (1).png" alt="">
+                                            <p style="align-items: center; padding: 15px;"><a class="Facebook-hover" style="text-decoration: none; color: black; cursor: pointer;" href="https://www.facebook.com/profile.php?id=100022203754514">Adisorn Sriphongthong</a></p>
+                                        </div>
+                                        <div style="display: flex; align-items: center; padding: 15px;">
+                                            <img style="width: 40px; height: 40px;" src="github.png" alt="">
+                                            <p style="align-items: center; padding: 15px;"><a class="Github-hover" style="text-decoration: none; color: black; cursor: pointer;" href="https://github.com/adisornsriphongthong">adisornsriphongthong</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div style="position: relative; top: 15%;">
+
+                                    <div style="display: flex; justify-content: center; position: relative;">
+                                        <h3>SKILLS</h3>
+                                    </div>
+
+                                    <br>
+                                    <div>
+                                        <hr style="width: 90%">       
+                                    </div>
+                                    <br>
+                                    <table>
+                                        <tr>
+                                            <th>
+                                                <div style="display: flex; align-items: center;">
+                                                    <img style="width: 40px; height: 40px; padding: 15px;" src="java-icon.png" alt="">
+                                                    <p style="margin: 10px;">java</p>
+                                                </div>
+                                            </th>
+                                            <th>
+                                                <div style="width: 190px; height: 20px; background-color: rgb(35, 35, 35);">
+                                                    <div style="width: 150px; height: 20px; background-image: linear-gradient(to right, rgb(140, 0, 255) , rgb(255, 123, 0));">
+                                                    </div>
+                                                </div>
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                <div style="display: flex; align-items: center;">
+                                                    <img style="width: 40px; height: 40px; padding: 15px;" src="html-icon.png" alt="">
+                                                    <p style="margin: 10px;">html</p>
+                                                </div>
+                                            </th>
+                                            <th>
+                                                <div style="width: 190px; height: 20px; background-color: rgb(35, 35, 35);">
+                                                    <div style="width: 100px; height: 20px; background-image: linear-gradient(to right, rgb(140, 0, 255) , rgb(255, 123, 0));">
+                                
+                                                    </div>
+                                                </div>
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                <div style="display: flex; align-items: center;">
+                                                    <img style="width: 40px; height: 40px; padding: 15px;" src="css-icon.png" alt="">
+                                                    <p style="margin: 10px;">css</p>
+                                                </div>
+                                            </th>
+                                            <th>
+                                                <div style="width: 190px; height: 20px; background-color: rgb(35, 35, 35);">
+                                                    <div style="width: 100px; height: 20px; background-image: linear-gradient(to right, rgb(140, 0, 255) , rgb(255, 123, 0));">
+                                
+                                                    </div>
+                                                </div>
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                <div style="display: flex; align-items: center;">
+                                                    <img style="width: 40px; height: 40px; padding: 15px;" src="js-icon.png" alt="">
+                                                    <p style="margin: 10px;">java script</p>
+                                                </div>
+                                            </th>
+                                            <th>
+                                                <div style="width: 190px; height: 20px; background-color: rgb(35, 35, 35);">
+                                                    <div style="width: 100px; height: 20px; background-image: linear-gradient(to right, rgb(140, 0, 255) , rgb(255, 123, 0));">
+                                
+                                                    </div>
+                                                </div>
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                <div style="display: flex; align-items: center;">
+                                                    <img style="width: 40px; height: 40px; padding: 15px;" src="mysql-icon.png" alt="">
+                                                    <p style="margin: 10px;">mysql</p>
+                                                </div>
+                                            </th>
+                                            <th>
+                                                <div style="width: 190px; height: 20px; background-color: rgb(35, 35, 35);">
+                                                    <div style="width: 80px; height: 20px; background-image: linear-gradient(to right, rgb(140, 0, 255) , rgb(255, 123, 0));">
+                                
+                                                    </div>
+                                                </div>
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                <div style="display: flex; align-items: center;">
+                                                    <img style="width: 40px; height: 40px; padding: 15px;" src="photoshop-icon.png" alt="">
+                                                    <p style="margin: 10px;">photoshop</p>
+                                                </div>
+                                            </th>
+                                            <th>
+                                                <div style="width: 190x; height: 20px; background-color: rgb(35, 35, 35);">
+                                                    <div style="width: 140px; height: 20px; background-image: linear-gradient(to right, rgb(140, 0, 255) , rgb(255, 123, 0));">
+                                
+                                                    </div>
+                                                </div>
+                                            </th>
+                                        </tr>
+                                    </table>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="page-2">
+                        <div style="display: flex; justify-content: left; position: relative; top: 5%;">
+                            <div>
+                                <div style="display: flex; justify-content: right; position: relative; ">
+
+
+                                    <div id="bar-contact-on-off" class="bar-contact">
+                                        <!-- triangle -->
+                                        <div class="triangle-up">
+                                            <p>1</p>
+                                        </div>
+                                        
+                                        <style>
+                                            .bar-performance{
+                                                width: 150px;
+                                                height: 120px;
+                                                border-radius: 5px;
+                                                position: absolute;
+                                                background-color: rgb(255, 255, 255);
+                                                padding: 15px;
+                                                margin-left: -180px;
+                                                margin-top: -43px;
+                                                box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+                                                visibility: hidden;
+                                            }
+
+                                            .performance{
+                                                cursor: pointer;
+                                                color: #fff;
+                                                padding: 15px;
+                                            }
+
+                                            .performance:hover .bar-performance{
+                                                visibility: visible;
+                                                transition: 0.5s;
+                                                margin-left: -200px;
+                                            }
+
+                                            .performance:hover{
+                                                color: #888888;
+                                            }
+
+                                            .font-end{
+                                                color: black; 
+                                                padding: 15px;
+                                                cursor: pointer;
+                                            }
+
+                                            .font-end:hover{
+                                                color: #4c4c4c;
+                                            }
+
+                                            .back-end{
+                                                cursor: pointer;
+                                                color: black; 
+                                                padding: 15px;
+                                            }
+
+                                            .back-end:hover{
+                                                color: #4c4c4c;
+                                            }
+
+                                            .about-me{
+                                                text-decoration: none;
+                                                color: #fff; 
+                                                padding: 15px; 
+                                                cursor: pointer;
+                                            }
+                                            .about-me:hover{
+                                                color: #888888;
+                                            }
+
+                                        </style>
+                                        <ul>
+                                            <li style="color: #000000; padding: 15px;"><span style="cursor: pointer; background-color: #fff; padding: 5px 20px; border-radius: 25px;">Home</span></li>
+                                            <li class="performance">performance
+                                                <div class="bar-performance">
+                                                    <div class="triangle-2">
+                                                        <h1></h1>
+                                                    </div>
+                                                    <ul>
+                                                        <li class="font-end"><a style="text-decoration: none; color: #4c4c4c;" href="https://adisornsriphongthong.github.io/WS-1.1-My-Performance/">font-end</a></li>
+
+                                                        <hr style="margin: 5px;">
+
+                                                        <li class="back-end"><a style="text-decoration: none; color: #4c4c4c;" href="">back-end</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li><a class="about-me" href="#about-me">about me</a></li>
+                                        </ul>
+
+                                        <br>
+
+                                        <h3 style="color: #fff;">Contacts</h3>
+                            
+                                        <hr style="margin: 5px; border: 1px solid rgb(176, 176, 176);">
+                            
+                                        <div class="Instagram">
+                                            <!-- Instagram -->
+                                            <img style="width: 30px; height: 30px; padding: 10px;" src="instagram.png" alt="">
+                                            <a href="https://www.instagram.com/milo_aroydee/?next=%2F" class="contact1">milo_aroydee</a>
+                                        </div>
+                            
+                            
+                                        <div class="Facebook">
+                                            <!-- Facebook -->
+                                            <img style="width: 30px; height: 30px; padding: 10px;" src="facebook (1).png" alt="">
+                                            <a href="https://www.facebook.com/profile.php?id=100022203754514" class="contact2"><p>Adisorn Sriphongthong</p></a>
+                                        </div>
+                            
+                                        <div class="Github">
+                                            <!-- Github -->
+                                            <img style="width: 30px; height: 30px; padding: 10px; filter: invert(1);" src="github.png" alt="">
+                                            <a href="https://github.com/adisornsriphongthong" class="contact3">adisornsriphongothong</a>
+                                        </div>
+                                    </div>
+
+                                    
+                                </div>
+                                <h3>ABOUT ME</h3>
+
+                                <br>
+                                <hr>
+                                <br>
+    
+                                <p>
+                                     Hello, let me introduce myself my name is Adisorn
+                                    Sriphongthong. ever everyone calls me to get. I was born
+                                    in Suphanburi, Thailand. mid of August 2004 of course, I'm 18 years old. then I'm studying at Panwapiwat Institute of Management or PIM. My major is Engineering Technology. My Characters Is 
+                                    handsome but I'll be serious sometimes but don't worry about this I'm actually a kind perso
+                                </p>
+
+                                <br>
+                                <hr>
+                                <br>
+
+                                <audio style="display: none;" id="song_easy" controls>
+                                    <source src="Easy.mp4">
+                                </audio>
+                                <p>My favorite song is <span style="width: 100px; background-color: #09ff53; padding: 2px 10px; border-radius: 15px;">easy</span> <button id="button-play-and-pause" style="cursor: pointer; align-items: center; background-color: transparent; border: none"><img id="image-play-pause" style="width: 15px; height: 15px;" src="play-button.png" alt=""></button> of mac ayres.</p>
+                                <p>My favorite singer is winter aespa</p>
+
+                                <br>
+                                <hr>
+                                <br>
+                                <br>
+                                <br>
+
+                                <h3>MY HOBBIES</h3>
+
+                                <br>
+                                <hr>
+                                <br>
+
+                                <ul>
+                                    <li style="margin-left:  30px;"> - listening to musics</li>
+                                    <li style="margin-left:  30px;"> - watching the movies</li>
+                                    <li style="margin-left:  30px;"> - play games</li>
+                                    <li style="margin-left:  30px;"> - learning new things</li>
+                                    <li style="margin-left:  30px;"> - sleep</li>
+                                </ul>
+
+                                <br>
+                                <br>
+
+                                <h3>The Pictures that tell the personality</h3>
+
+                                <br>
+                                <hr>
+
+                                <div style="margin-top: 25px;">
+                                    <div class="background-gif">
+
+                                    </div>
+                                    <div class="background-gif2">
+    
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="background-position: center; background-position: center; background-color: rgb(17, 17, 17); width: 100%; height: 100px;">
+            <div style="display: flex; justify-content: space-between; padding: 25px;">
+                <h3 style="color: #fff;">MYPROFIOLE</h3>
+                <h3 style="color: #fff">ADISORN SRIPHONGTHONG</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="index.js"></script>
+</html>

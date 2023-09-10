@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.background-2{
+    width: 100%;
+    height: 10vh;
+    background-color: #ffffff;
+    background-position: center;
+    background-size: cover;
+}
+
+.background-profile{
+    width: 100%;
+    height: 10vh;
+    background-color: transparent;
+    background-position: center;
+    background-size: cover;
+    margin-top: -30px;
+    position: absolute;
+}
+
+.corner{
+    position: relative;
+    background-color: #ffffff;
+    width: 1930;
+    height: 200px;
+    margin-top: 40px;
+    margin-left: -15px;
+    transform: rotate(3deg);
+}
+
+.background-corner{
+    width: 100%; 
+    height: 80px; 
+    background-color: transparent; 
+    overflow: hidden;
+    margin-top: -80px;
+    position: absolute;
+}
+
+.profile{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.section1-profile{
+    width: 50%;
+    height: 600px;
+    left: 20%;
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+}
+
+.position-profile{
+    position: relative;
+    width: 50%;
+    height: 200px;
+    padding: 15px;
+    background-color: transparent;
+}
+
+.text-profile{
+    position: relative;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.star{
+    opacity: 0.8;
+    width: 95%;
+    height: 430px;
+    margin-top: 40px;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    left: 0;
+}
+
+.section1_page_information{
+    width: 50%;
+    height: 900px;
+    background: rgb(64, 0, 255);
+    position: relative;
+}
+
+.section2_page_information{
+    width: 50%;
+    height: 900px;
+    background: rgb(64, 0, 255);
+    position: relative;
+}
+
+.move-interface-1{
+    transform: translateY(-100px);
+}
+
+.page-1{
+    width: 50%;
+    height: 1300px; 
+    background-color: rgb(255, 255, 255); 
+    position: relative;
+}
+
+.page-2{
+    width: 50%;
+    height: 1300px; 
+    background-color: 
+    rgb(255, 255, 255); 
+    position: relative;
+}
+
+.Display-of-page1-2{
+    display: flex;
+}
+
+.text-never{
+    display: flex; 
+    justify-content: center; 
+    color: #fff;
+    font-size: 10px;
+}
+
+.bar-media{
+    display: flex;
+}
+
+@media (max-width: 490px) {
+    .bar-media{
+        display: none;
+    }
+
+    .background{
+        width: 107%;
+    }
+
+    .background-corner{
+        width: 107%; 
+    }
+    .page-1{
+        width: 107%;
+    }
+    .page-2{
+        width: 107%;
+    }
+
+    .Display-of-page1-2{
+        display: block;
+    }
+
+    .text-never{
+        justify-content: left;
+    }
+
+    .background-2{
+        height: 90vh;
+    }
+
+    .page-1{
+        height: 900px; 
+    }
+}
+
+
+
+
+ul li{
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.background-gif{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-image: url(Artistic\ Rain\ Gif\ -\ Gif\ Abyss.gif);
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    width: 100%;
+    height: 200px;
+}
+
+.background-gif2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-image: url(blue\ hour\,\ my_art_bytes\(me\)\,\ pixel\ art\,\ 2021.gif);
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    width: 100%;
+    height: 200px;
+    margin-top: 15px;
+}
+
+.backgrond-last-page{
+    width: 100%;
+    background-image: linear-gradient(rgb(0,0,0,0.8), rgb(0,0,0,0.8)), url(background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.move-text-ccenter{
+    margin-top: 100px;
+}
